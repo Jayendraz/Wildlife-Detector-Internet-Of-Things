@@ -1,0 +1,19 @@
+GRANT ALL ON WildlifeDB.* TO root@'172.23.135.126' IDENTIFIED BY 'admin123';
+
+
+Restart Services:
+sudo /etc/init.d/mysql restart
+
+card view: http://localhost:8080/animal
+table: http://localhost:8080/tblAnimal#
+
+
+cd /home/pi/WildlifeResearchApp
+python manage.py runserver 0:8080
+
+
+python subscriber.py
+
+
+bind address in my.cnf should be 0.0.0.0.
+
