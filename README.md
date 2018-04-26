@@ -24,5 +24,7 @@
 ## References:
  * Image Recognition:  https://visual-recognition-demo.mybluemix.net/
 
+## Image:
+![](IMG_20170615_194031.jpg)
 
 
